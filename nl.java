@@ -13,34 +13,33 @@ import java.util.List;
 import java.util.Map;
 
 public class Analyze {
-  public static void main(String... args) throws Exception {
+  public static void analyzeEntity(String gcsUri) throws Exception {
     // Instantiates a client
     try (LanguageServiceClient languageApi = LanguageServiceClient.create()) {
 
       // The text to analyze
-      String text = "My name is Alex and I am throwing a party on Halloween";
       Document doc = Document.newBuilder()
-          .setContent(text).setType(Type.PLAIN_TEXT).build();
+          .setGcsContentUri(/*PATH!!!!!!!!!!!!!!!*/)
+          .setType(Type.PLAIN_TEXT).build();
 
       // Detects the entity of the text
-      analyzeEntity(languageApi, doc);
-    }
-  }
-      
-  public static void analyseEntity(LanguageServiceClient languageApi, Document doc) {
+      analyzeEntity(languageApi, doc);  
 
-    AnalyzeEntityRequest request = AnalyzeEntityRequest.newBuilder()
-            .setDocument(doc)
-            .setEncodingType(EncodingType.UTF16).build();
-    AnalyzeEntityResponse response = languageApi.analyzeEntitySentiment(request);
+      AnalyzeEntitiesRequest request = AnalyzeEntitiesRequest.newBuilder()
+              .setDocument(doc)
+              .setEncodingType(EncodingType.UTF16).build();
+      AnalyzeEntitiesResponse response = languageApi.AnalyzeEntitiesResponse(request);
 
-    System.out.println(" <------ Entity Analysis -----> ");
+      System.out.println(" <------ Entity Analysis -----> ");
 
-    for(Entity entity : response.getEntitiesList())
-    {
-      System.out.println();
-      System.out.println("Name      : " + entity.getName());
-      System.out.println("Type      : " + entity.getType().name());
+      for(Entity entity : response.getEntitiesList())
+      {
+        System.out.println();
+        System.out.println("Name      : " + entity.getName());
+        System.out.println("Type      : " + entity.getType().name());
+
+        
+      }
     }
   }
 }
