@@ -16,53 +16,83 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.io.*;
+import java.util.*;
 
 public class Vision {
 
 
-	public static void main(String[] args) {
-		// Instantiates a client
-		
-		try (ImageAnnotatorClient vision = ImageAnnotatorClient.create()) {
+    public static void main(String[] args) {
+        // Instantiates a client
 
-			// The path to the image file to annotate
-			String fileName = "~/Downloads/IMG_1265.JPG";
 
-			// Reads the image file into memory
-			Path path = Paths.get(fileName);
-			byte[] data = Files.readAllBytes(path);
-			ByteString imgBytes = ByteString.copyFrom(data);
+        try (ImageAnnotatorClient vision = ImageAnnotatorClient.create()) {
 
-			// Builds the image annotation request
-			List<AnnotateImageRequest> requests = new ArrayList<>();
-			Image img = Image.newBuilder().setContent(imgBytes).build();
-			Feature feat = Feature.newBuilder().setType(Type.LABEL_DETECTION).build();
-			AnnotateImageRequest request = AnnotateImageRequest.newBuilder()
-					.addFeatures(feat)
-					.setImage(img)
-					.build();
-			requests.add(request);
+            // The path to the image file to annotate
+            String fileName = "~/Downloads/IMG_1265.JPG";
 
-			// Performs label detection on the image file
-			BatchAnnotateImagesResponse response = vision.batchAnnotateImages(requests);
-			List<AnnotateImageResponse> responses = response.getResponsesList();
+            // Reads the image file into memory
+            Path path = Paths.get(fileName);
+            byte[] data = Files.readAllBytes(path);
+            ByteString imgBytes = ByteString.copyFrom(data);
 
-			for (AnnotateImageResponse res : responses) {
-				if (res.hasError()) {
-					System.out.printf("Error: %s\n", res.getError().getMessage());
-					return;
-				}
+            // Builds the image annotation request
+            List<AnnotateImageRequest> requests = new ArrayList<>();
+            Image img = Image.newBuilder().setContent(imgBytes).build();
+            Feature feat = Feature.newBuilder().setType(Type.LABEL_DETECTION).build();
+            AnnotateImageRequest request = AnnotateImageRequest.newBuilder()
+                    .addFeatures(feat)
+                    .setImage(img)
+                    .build();
+            requests.add(request);
 
-				for (EntityAnnotation annotation : res.getLabelAnnotationsList()) {
-					annotation.getAllFields().forEach((k, v)->
-					System.out.printf("%s : %s\n", k, v.toString()));
-				}
-			}
-		} catch (Exception e) {
-			
-		}
+            try (ImageAnnotatorClient client = ImageAnnotatorClient.create()) {
+                BatchAnnotateImagesResponse response = client.batchAnnotateImages(requests);
+                List<AnnotateImageResponse> responses = response.getResponsesList();
 
-	}
+                BufferedWriter out = new BufferedWriter(new FileWriter("test.txt"));
+
+                for (AnnotateImageResponse res : responses) {
+                    if (res.hasError()) {
+                        System.out.printf("Error: %s\n", res.getError().getMessage());
+                        return;
+                    }
+
+                    // For full list of available annotations, see http://g.co/cloud/vision/docs
+                    for (EntityAnnotation annotation : res.getTextAnnotationsList()) {
+                        out.write(annotation.getDescription());
+                    }
+                }
+            }
+        } catch (Exception e) {
+        }
+    }
 }
+//			// Performs label detection on the image file
+//			BatchAnnotateImagesResponse response = vision.batchAnnotateImages(requests);
+//			List<AnnotateImageResponse> responses = response.getResponsesList();
+//
+//			for (AnnotateImageResponse res : responses) {
+//				if (res.hasError()) {
+//					System.out.printf("Error: %s\n", res.getError().getMessage());
+//					return;
+//				}
+//
+//				for (EntityAnnotation annotation : res.getLabelAnnotationsList()) {
+//					annotation.getAllFields().forEach((k, v)->
+//					System.out.printf("%s : %s\n", k, v.toString()));
+//				}
+//			}
+//		} catch (Exception e) {
+//
+//		}
+//
+//	}
+
+
+
+
+
+
 
 	// [END vision_quickstart]
