@@ -24,8 +24,8 @@ import java.lang.Object;
 
 public class Natural_Language {
 
-	public static void main(String[] args) {
-    	
+	public static void main(String[] args) throws Exception{
+
     	File file = new File("temp.txt");
     	String str = file.toString();
 
@@ -48,23 +48,28 @@ public class Natural_Language {
             System.out.println(" <------ Entity Analysis -----> ");
 
             for(Entity entity : response.getEntitiesList()) {
-                if (entity.getType() == "LOCATION"){
+
+                 String type = (entity.getType()).toString();
+
+                if (type == "LOCATION"){
                     location = entity.getName();
                 }
-                else if (entity.getType() == "EVENT"){
+                else if (type == "EVENT"){
                     event = entity.getName();
                 }
-                else if (entity.getType() == "ORGANIZATION"){
+                else if (type == "ORGANIZATION"){
                     organization = entity.getName();
                 }
             }
         }
         catch(FileNotFoundException e){
+            location = "";
+            event = "";
+            organization = "";
         }
         
 
         String day = "";
-        String time = "";
 
         String a = "sund";
         String b = "mon";
@@ -93,7 +98,10 @@ public class Natural_Language {
         }
 
         catch(FileNotFoundException e1){
+            day = "";
         }
+
+
       }
     }
 
