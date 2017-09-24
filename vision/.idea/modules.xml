@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/vision.iml" filepath="$PROJECT_DIR$/.idea/vision.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/google-cloud-vision.iml" filepath="$PROJECT_DIR$/google-cloud-vision.iml" />
->>>>>>> 704e959d8a52a60ae0c3d8dea799eb6584b23711
     </modules>
   </component>
 </project>
