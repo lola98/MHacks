@@ -12,6 +12,13 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="vision" target="1.8" />
+=======
+        <module name="google-cloud-vision" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="google-cloud-vision" target="1.8" />
+>>>>>>> 704e959d8a52a60ae0c3d8dea799eb6584b23711
     </bytecodeTargetLevel>
   </component>
 </project>
