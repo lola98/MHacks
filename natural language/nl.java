@@ -13,13 +13,16 @@ import java.util.List;
 import java.util.Map;
 
 public class Analyze {
+	public static void main(String[] args) {
+		
+		
   public static void analyzeEntity(String gcsUri) throws Exception {
     // Instantiates a client
     try (LanguageServiceClient languageApi = LanguageServiceClient.create()) {
 
       // The text to analyze
       Document doc = Document.newBuilder()
-          .setGcsContentUri(/*PATH!!!!!!!!!!!!!!!*/)
+          .setGcsContentUri(C:/Users/saiditang/MHacks/vision/classpath-include)
           .setType(Type.PLAIN_TEXT).build();
 
       // Detects the entity of the text
@@ -42,4 +45,5 @@ public class Analyze {
       }
     }
   }
+	}
 }
