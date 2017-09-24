@@ -29,26 +29,35 @@ public class Natural_Language {
     	File file = new File("temp.txt");
     	String str = file.toString();
 
+    	String location = "";
+    	String event = "";
+    	String organization = "";
+
         // Instantiates a client
         try (LanguageServiceClient languageApi = LanguageServiceClient.create()) {
-        // The text to analyze
-        Document doc = Document.newBuilder()
-        .setContent(str)
-        .setType(Type.PLAIN_TEXT).build();
+            // The text to analyze
+            Document doc = Document.newBuilder()
+            .setContent(str)
+            .setType(Type.PLAIN_TEXT).build();
 
-        AnalyzeEntitiesRequest request = AnalyzeEntitiesRequest.newBuilder()
-                .setDocument(doc)
-                .setEncodingType(EncodingType.UTF16).build();
-        AnalyzeEntitiesResponse response = languageApi.analyzeEntities(request);
+            AnalyzeEntitiesRequest request = AnalyzeEntitiesRequest.newBuilder()
+                    .setDocument(doc)
+                    .setEncodingType(EncodingType.UTF16).build();
+            AnalyzeEntitiesResponse response = languageApi.analyzeEntities(request);
 
-        System.out.println(" <------ Entity Analysis -----> ");
+            System.out.println(" <------ Entity Analysis -----> ");
 
-        for(Entity entity : response.getEntitiesList())
-        {
-            System.out.println();
-            System.out.println("Name      : " + entity.getName());
-            System.out.println("Type      : " + entity.getType().name());
-        }
+            for(Entity entity : response.getEntitiesList()) {
+                if (entity.getType() == "LOCATION"){
+                    location = entity.getName();
+                }
+                else if (entity.getType() == "EVENT"){
+                    event = entity.getName();
+                }
+                else if (entity.getType() == "ORGANIZATION"){
+                    organization = entity.getName();
+                }
+            }
         }
         catch(FileNotFoundException e){
         }
@@ -73,7 +82,7 @@ public class Natural_Language {
         		
         		String line = scanner.nextLine();
         		lineNum++;
-        		if((line).contains(a)) day = a;
+        		if((line).contains(a))day = a;
         		else if((line).contains(b)) day = b;
         		else if((line).contains(c)) day = c;
         		else if((line).contains(d)) day = d;
@@ -82,10 +91,10 @@ public class Natural_Language {
         		else if((line).contains(g)) day = g;
         	}
         }
-        	
+
         catch(FileNotFoundException e1){
         }
       }
     }
-}
+
 

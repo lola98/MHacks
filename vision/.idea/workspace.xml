@@ -2,109 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfe5a20c-cf9d-457e-bbd8-3e66c7cf43d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_api_api_common_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_api_gax_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_api_gax_grpc_0_25_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_api_grpc_proto_google_cloud_language_v1_0_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_api_grpc_proto_google_cloud_language_v1beta2_0_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_api_grpc_proto_google_common_protos_0_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_api_grpc_proto_google_iam_v1_0_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_auth_google_auth_library_credentials_0_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_auth_google_auth_library_oauth2_http_0_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_auto_value_auto_value_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_cloud_google_cloud_core_1_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_cloud_google_cloud_core_grpc_1_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_cloud_google_cloud_language_0_24_0_beta.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_code_gson_gson_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_http_client_google_http_client_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_http_client_google_http_client_jackson2_1_19_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_instrumentation_instrumentation_api_0_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__com_google_protobuf_protobuf_java_util_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_grpc_grpc_auth_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_grpc_grpc_context_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_grpc_grpc_core_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_grpc_grpc_netty_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_grpc_grpc_protobuf_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_grpc_grpc_protobuf_lite_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_grpc_grpc_stub_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_netty_netty_buffer_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_netty_netty_codec_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_netty_netty_common_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_netty_netty_handler_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_netty_netty_resolver_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_2_0_3_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_netty_netty_transport_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__io_opencensus_opencensus_api_0_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__joda_time_joda_time_2_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../natural/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../tester/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_api_common_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_gax_1_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_gax_grpc_0_25_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_grpc_proto_google_cloud_vision_v1_0_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_grpc_proto_google_common_protos_0_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_grpc_proto_google_iam_v1_0_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auth_google_auth_library_credentials_0_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auth_google_auth_library_oauth2_http_0_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_value_auto_value_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_cloud_google_cloud_core_1_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_cloud_google_cloud_core_grpc_1_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_cloud_google_cloud_vision_0_24_0_beta.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_jackson2_1_19_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_instrumentation_instrumentation_api_0_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_util_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_auth_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_core_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_netty_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_lite_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_stub_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_2_0_3_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_14_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_api_0_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_threeten_threetenbp_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../natural language/nl.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Vision.class" afterPath="$PROJECT_DIR$/target/classes/Vision.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_api_api_common_1_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_api_gax_1_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_api_gax_grpc_0_25_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_api_grpc_proto_google_cloud_language_v1_0_1_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_api_grpc_proto_google_cloud_language_v1beta2_0_1_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_api_grpc_proto_google_common_protos_0_1_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_api_grpc_proto_google_iam_v1_0_1_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_auth_google_auth_library_credentials_0_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_auth_google_auth_library_oauth2_http_0_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_auto_value_auto_value_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_cloud_google_cloud_core_1_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_cloud_google_cloud_core_grpc_1_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_cloud_google_cloud_language_0_24_0_beta.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_code_gson_gson_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_http_client_google_http_client_1_22_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_http_client_google_http_client_jackson2_1_19_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_instrumentation_instrumentation_api_0_4_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__com_google_protobuf_protobuf_java_util_3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_grpc_grpc_auth_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_grpc_grpc_context_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_grpc_grpc_core_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_grpc_grpc_netty_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_grpc_grpc_protobuf_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_grpc_grpc_protobuf_lite_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_grpc_grpc_stub_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_netty_netty_buffer_4_1_14_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_netty_netty_codec_4_1_14_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_14_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_14_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_14_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_netty_netty_common_4_1_14_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_netty_netty_handler_4_1_14_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_14_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_netty_netty_resolver_4_1_14_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_2_0_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_netty_netty_transport_4_1_14_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__io_opencensus_opencensus_api_0_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__joda_time_joda_time_2_9_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__org_json_json_20160810.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/libraries/Maven__org_threeten_threetenbp_1_3_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MHacks_Natural_Language/target/classes/Natural_Language.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/misc.xml" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MHacks_Natural_Language/MHacks_Natural_Language.iml" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/MHacks_Natural_Language.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MHacks_Natural_Language/src/Natural_Language.java" afterPath="$PROJECT_DIR$/../MHacks_Natural_Language/src/Natural_Language.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,10 +70,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Vision.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Vision.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Vision.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="-873">
               <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="e#0#2114#0" expanded="true" />
@@ -141,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="281">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -232,7 +186,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../natural language" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MHacks_Natural_Language" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.dataviews" />
   </component>
   <component name="RunDashboard">
@@ -362,15 +316,15 @@
       <workItem from="1506212854989" duration="81000" />
       <workItem from="1506213408323" duration="426000" />
       <workItem from="1506213889202" duration="341000" />
-      <workItem from="1506214268131" duration="4812000" />
+      <workItem from="1506214268131" duration="5552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5660000" />
+    <option name="totallyTimeSpent" value="6400000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -482,22 +436,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Vision.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="-873">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="e#0#2114#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

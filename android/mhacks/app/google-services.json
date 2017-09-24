@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "138813133462",
+    "project_id": "firebase-mhacks"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138813133462:android:5a8f72e68ccfb7fb",
+        "android_client_info": {
+          "package_name": "com.example.lola.mhacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138813133462-fbk7to9dqesgonn9dpn0k4ff22m8fjk2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lola.mhacks",
+            "certificate_hash": "f3235456b0ccf73e7395fdbb61413ce3cb69af9a"
+          }
+        },
+        {
+          "client_id": "138813133462-eb1f5phuao56dg8biifjeai1t8mdbkf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9Tbr5xchLZg9EM0HdYM-eZFHxbmTwnfo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
