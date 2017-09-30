@@ -5,6 +5,8 @@
     android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
     android:baselineAligned="false"
     android:paddingBottom="16dp" tools:context=".activity_camera"
     android:weightSum="1">
@@ -33,7 +35,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="25dp"
         android:text="You have successfully logged into your account."
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -44,7 +46,7 @@
     <Button
         android:id="@+id/takePhotoButton"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add a New Event"
         tools:layout_constraintTop_creator="1"
@@ -56,12 +58,11 @@
 
 
     <ImageView
+        android:id="@+id/image_view"
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:layout_marginLeft="30dp"
-        android:id="@+id/image_view"
         android:layout_gravity="center_vertical"
-        android:layout_marginTop="20dp"
-        />
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp" />
 </LinearLayout>
 

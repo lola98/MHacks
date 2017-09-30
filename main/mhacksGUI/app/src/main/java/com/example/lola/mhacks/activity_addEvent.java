@@ -13,9 +13,16 @@ import android.widget.TextView;
 public class activity_addEvent extends AppCompatActivity {
 
     @Override
+    public void onPanelClosed(int featureId, Menu menu) {
+        super.onPanelClosed(featureId, menu);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_event);
 
     }
+
+
 }
